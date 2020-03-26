@@ -10,8 +10,7 @@ alert('Test Message!'); //Выводим сообщение в модально�
 console.log(money, income, addExpenses, deposit, mission, period); /* 
 выводим переменные в консоль */
 
-
-console.log(period);
+console.log(period); //test 4 commit
 
 
 
