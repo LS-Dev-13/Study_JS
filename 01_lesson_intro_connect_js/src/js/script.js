@@ -11,6 +11,7 @@ console.log(money, income, addExpenses, deposit, mission, period); /*
 выводим переменные в консоль */
 
 
-  
+console.log(period);
+
 
 
