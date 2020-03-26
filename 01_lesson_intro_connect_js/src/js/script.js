@@ -5,7 +5,7 @@
   deposit = 4,
   mission = 5,
   period = 6; 
-
+  
 alert('Test Message!'); //Выводим сообщение в модальное окно
 console.log(money, income, addExpenses, deposit, mission, period); /* 
 выводим переменные в консоль */
