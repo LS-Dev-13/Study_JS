@@ -4,7 +4,7 @@ let sum = 1;
 
 // переводим переменную в строку
 num = num + '';
-console.log(typeof 'num: ', num);
+console.log('num: ',typeof num);
 
 // используем цикл, который достанет каждое число отдельно и перемножим их
 for (let i = 0; i < num.length; i++) {
@@ -16,7 +16,7 @@ console.log([sum]);
 
 // воздведём полученное число в 3-ю степень
 sum **= 3;
-console.log(typeof 'sum: ', sum);
+console.log('sum: ',typeof sum);
 
 /* Переведем полученное значение в строку и выведем 
 на экран первые 2 цифры полученного числа */
