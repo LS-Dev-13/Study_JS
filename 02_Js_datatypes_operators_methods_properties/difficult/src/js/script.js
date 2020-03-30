@@ -23,7 +23,7 @@
 // sum = String(sum);
 // console.log(sum.substr(0, 2));
 
-
+'use strict';
 
 // объявляем переменную
 let num = 266219;
