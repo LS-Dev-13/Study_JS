@@ -5,6 +5,7 @@ function isNum(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
+// задание 1
 // Cоздадим массив. 
 let arr = ['1331', '2442', '3553', '4887', '777', '231', '4779'];
 // Проверим первый символ каждого элемента. Выведем в консоль.
@@ -15,23 +16,17 @@ arr.forEach((el) => {
   }
 });
 
-
-// задание 2. нужно разбираться.
-function isPrime(n) {
-  for (let i = 2; i * i <= n; i === 2 ? i++ : i += 2){
-    if (n % i === 0){
-      return false;
+// задание 2
+ let n = 100;
+ let simpleNumbers = [];
+ nextPrime:
+  for (let i = 2; i <= n; i++) { // Для всех i...
+    for (let j = 2; j < i; j++) { // проверить, делится ли число..
+      if (i % j === 0) continue nextPrime; // не подходит, берём следующее
     }
+    simpleNumbers.push(i);
   }
-  return n > 1;
-}
-
-const res = [...Array(100)].reduce((a, _, i) => a.concat(isPrime(i) ?
- `Делители числа ${i}: 1 и ${i}` : []), []).join('\n');
- isPrime(100);
-
-
-
-
-
-
+console.log('simpleNumbers: ', simpleNumbers);
+  for (let key in simpleNumbers){
+    console.log(simpleNumbers[key] + ' : ' + 'Делители этого числа: 1 и ' + simpleNumbers[key]);
+  }

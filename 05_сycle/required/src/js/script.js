@@ -78,6 +78,7 @@ if (targetMonth <= 0) {
   console.log('Цель будет достигнута: ', Math.ceil(targetMonth));
 }
 
+
 //Вычисляем дневной бюджет 
 //Хотел использовать getAccumulatedMonth, но одна функция - одна цель
 function getBudgetDay(a, b) {
