@@ -124,10 +124,6 @@ appData.getExpensesMonth();
 appData.getBudget();
 appData.getInfoDeposit();
 
-// // добавим в object appData свойства
-// appData.budgetDay = 0;
-// appData.budgetMonth = 0;
-// appData.expensesMonth = 0;
 console.log('Сумма расходов за месяц: ' + appData.expensesMonth);
 
 if (appData.getTargetMonth() <= 0) {
