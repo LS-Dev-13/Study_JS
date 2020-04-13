@@ -37,9 +37,6 @@ const salaryAmount = document.querySelector('.salary-amount'),
       targetAmount = document.querySelector('.target-amount'),
       periodSelect = document.querySelector('.period-select');
 
-// console.log(startСalc, buttonAddFirst, buttonAddSecond, additionalIncomeItem, budgetMonthValue, budgetDayValue, expensesMonthValue, additionalIncomeValue, additionalExpensesValue, incomePeriodValue, targetMonthValue, salaryAmount, incomeTitle, incomeAmount, expensesTitle, expensesAmount, expensesItem, depositCheck, depositAmount, depositPercent, targetAmount, periodSelect);
-
-
 // // querySelector по атрибуту
 // console.log(document.querySelector('[title="Основной заголовок"]'));
 
